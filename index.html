@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonica - Discord Music Bot</title>
+    <meta name="description" content="Harmonica is a powerful Discord music bot that plays audio from YouTube, Spotify, direct links, and livestreams with high-quality audio and advanced features.">
+    <meta name="keywords" content="discord bot, music bot, discord music, youtube bot, spotify bot, harmonica">
+    <meta name="author" content="migwynkriid">
+    <meta property="og:title" content="Harmonica - Discord Music Bot">
+    <meta property="og:description" content="A powerful Discord music bot with YouTube, Spotify, and livestream support.">
+    <meta property="og:image" content="https://github.com/user-attachments/assets/1ee417c8-db7c-458c-987d-95dcd909ee47">
+    <meta property="og:url" content="https://migwynkriid.github.io/Harmonica-Pages/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-music"></i>
+                <span>Harmonica</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#commands" class="nav-link">Commands</a>
+                <a href="#setup" class="nav-link">Setup</a>
+                <a href="#troubleshooting" class="nav-link">Troubleshooting</a>
+                <a href="https://github.com/migwynkriid/Harmonica" class="nav-link" target="_blank">GitHub</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Harmonica</h1>
+                <p class="subtitle">A powerful Discord music bot with advanced features</p>
+                <div class="badges">
+                    <span class="badge"><i class="fab fa-python"></i> Python</span>
+                    <span class="badge"><i class="fab fa-discord"></i> Discord.py</span>
+                    <span class="badge"><i class="fab fa-youtube"></i> YT-DLP</span>
+                    <span class="badge"><i class="fab fa-spotify"></i> Spotify</span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1341757638433833021&scope=bot+applications.commands" class="btn primary-btn" target="_blank">
+                        <i class="fab fa-discord"></i> Add to Discord
+                    </a>
+                    <a href="https://github.com/migwynkriid/Harmonica" class="btn secondary-btn" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://github.com/user-attachments/assets/1ee417c8-db7c-458c-987d-95dcd909ee47" alt="Harmonica Bot Preview" class="preview-image">
+                <div class="glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Multi-Platform Support</h3>
+                    <p>Play music from YouTube, Spotify, direct links, and livestreams with high-quality audio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Multi-Server Support</h3>
+                    <p>Use Harmonica on multiple Discord servers simultaneously with separate queues.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>SponsorBlock Integration</h3>
+                    <p>Automatically skip sponsor segments, intros, outros, and other non-music content.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>Advanced Playback Control</h3>
+                    <p>Pause, skip, loop, shuffle, and manage your queue with simple commands.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Smart Caching</h3>
+                    <p>Intelligent local caching system for faster playback and reduced bandwidth usage.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Lyrics Integration</h3>
+                    <p>Get lyrics for the currently playing song with Genius integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to enhance your Discord server?</h2>
+                <p>Add Harmonica to your server today and enjoy high-quality music with your friends!</p>
+                <a href="https://discord.com/oauth2/authorize?client_id=1341757638433833021&scope=bot+applications.commands" class="btn primary-btn" target="_blank">
+                    <i class="fab fa-discord"></i> Add to Discord
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="commands" class="commands">
+        <div class="container">
+            <h2 class="section-title">Bot Commands</h2>
+            <div class="commands-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="music">Music Playback</button>
+                    <button class="tab-btn" data-tab="queue">Queue Management</button>
+                    <button class="tab-btn" data-tab="voice">Voice Channel</button>
+                    <button class="tab-btn" data-tab="system">System Commands</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="music">
+                        <div class="command-grid">
+                            <div class="command-card">
+                                <h4>!play [URL/search]</h4>
+                                <p>Play audio from URL or search</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!search [term]</h4>
+                                <p>Search YouTube for a song</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!pause</h4>
+                                <p>Pause playback</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!resume</h4>
+                                <p>Resume playback</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!stop</h4>
+                                <p>Stop and clear queue</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!skip</h4>
+                                <p>Skip current track</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!replay</h4>
+                                <p>Replay current track</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!random</h4>
+                                <p>Searches for a random song</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!loop [count]</h4>
+                                <p>Toggle loop mode (optional count)</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!nowplaying</h4>
+                                <p>Show current track info</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="queue">
+                        <div class="command-grid">
+                            <div class="command-card">
+                                <h4>!queue</h4>
+                                <p>Show queue</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!clear</h4>
+                                <p>Clear entire queue</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!clear [position]</h4>
+                                <p>Remove specific track</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!shuffle</h4>
+                                <p>Shuffle queue</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="voice">
+                        <div class="command-grid">
+                            <div class="command-card">
+                                <h4>!join / !summon</h4>
+                                <p>Join your channel</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!leave / !disconnect</h4>
+                                <p>Leave channel</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!lyrics</h4>
+                                <p>Get lyrics for current song</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="system">
+                        <div class="command-grid">
+                            <div class="command-card">
+                                <h4>!alias [add/remove/list]</h4>
+                                <p>Manage aliases</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!ping</h4>
+                                <p>Show bot status</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!version</h4>
+                                <p>Show bot version</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!prefix</h4>
+                                <p>Change command prefix</p>
+                            </div>
+                            <div class="command-card">
+                                <h4>!help</h4>
+                                <p>Show all commands</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="setup" class="setup">
+        <div class="container">
+            <h2 class="section-title">Selfhost Setup Guide</h2>
+            <div class="setup-steps">
+                <div class="setup-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Install Python</h3>
+                        <p>Install Python 3.8 or higher and verify installation with <code>python --version</code></p>
+                    </div>
+                </div>
+                <div class="setup-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Install Dependencies</h3>
+                        <p>Run <code>pip install -r requirements.txt</code> to install all required packages</p>
+                    </div>
+                </div>
+                <div class="setup-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Configure Bot Token</h3>
+                        <p>Rename <code>.env.example</code> to <code>.env</code> and add your Discord token</p>
+                    </div>
+                </div>
+                <div class="setup-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Launch Bot</h3>
+                        <p>Run <code>python bot.py</code> to start the bot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="setup-details">
+                <h3>Optional Features</h3>
+                <div class="optional-features">
+                    <div class="optional-feature">
+                        <h4><i class="fab fa-spotify"></i> Spotify Integration</h4>
+                        <p>Rename <code>.spotifyenv.example</code> to <code>.spotifyenv</code> and add your Spotify API credentials</p>
+                    </div>
+                    <div class="optional-feature">
+                        <h4><i class="fas fa-music"></i> Genius Lyrics</h4>
+                        <p>Edit <code>.geniuslyrics</code> file (created on first startup) and add your Genius API credentials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="troubleshooting" class="troubleshooting">
+        <div class="container">
+            <h2 class="section-title">Troubleshooting</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>FFmpeg Issues</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p><strong>Windows:</strong> Relaunch after first install</p>
+                        <p><strong>macOS/Linux:</strong> Automatic installation</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>YouTube Sign-In Error/403 Error</h3>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Check and update your cookies.txt file</p>
+                        <p>Install <a href="https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc" target="_blank">Get Cookies.txt extension</a> and export cookies to the bot's root directory</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-music"></i>
+                    <span>Harmonica</span>
+                </div>
+                <p class="footer-description">A self-hosted Discord bot that uses YT-DLP to play audio from YouTube, Spotify, direct links, and livestreams in your Discord voice channels.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/sebastijan/Harmonica" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://discord.com/oauth2/authorize?client_id=1341757638433833021&scope=bot+applications.commands" target="_blank"><i class="fab fa-discord"></i> Add to Discord</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Licensed under the Unlicense. This project primarily uses yt-dlp, which is licensed under GPL-2.0.</p>
+                <p>&copy; <span id="current-year">2025</span> Harmonica</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
