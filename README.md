@@ -2,8 +2,19 @@
 
 This repository contains the website for the [Harmonica Discord Music Bot](https://github.com/migwynkriid/Harmonica). The website is built using HTML, CSS, and JavaScript and is hosted on GitHub Pages.
 
+# Harmonica - Discord Music Bot
+
+A powerful Discord music bot that plays audio from YouTube, Spotify, direct links, and livestreams with high-quality audio and advanced features.
+
+[Visit the Website](https://migwynkriid.github.io/Harmonica-Pages/)
+
 ## Features
 
+- Multi-platform support (YouTube, Spotify, direct links, livestreams)
+- High-quality audio playback
+- SponsorBlock integration
+- Advanced playback controls
+- Smart caching system
 - Responsive design that works on all devices
 - Modern, dark-themed UI with Discord-inspired color scheme
 - Interactive elements including:
