@@ -504,11 +504,12 @@ nav {
 
 .tabs-header {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #1a73e8;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     overflow-x: auto;
     scrollbar-width: none;
     justify-content: center;
+    color: #ffffff;
 }
 
 .tabs-header::-webkit-scrollbar {
@@ -519,16 +520,18 @@ nav {
     padding: 1rem 1.5rem;
     background: none;
     border: none;
-    color: var(--text-secondary);
+    color: #ffffff;
     font-weight: 500;
     cursor: pointer;
     transition: var(--transition);
     white-space: nowrap;
+    background-color: #1a73e8;
 }
 
 .tab-btn.active {
-    color: var(--primary-color);
+    color: #ffffff;
     position: relative;
+    background-color: #1557b0;
 }
 
 .tab-btn.active::after {
