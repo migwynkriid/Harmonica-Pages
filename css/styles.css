@@ -508,6 +508,7 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     overflow-x: auto;
     scrollbar-width: none;
+    justify-content: center;
 }
 
 .tabs-header::-webkit-scrollbar {
