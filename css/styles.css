@@ -811,6 +811,20 @@ footer {
     }
 }
 
+/* Hit Counter Badge */
+footer a[href^="https://hits.seeyoufarm.com"] {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+footer a[href^="https://hits.seeyoufarm.com"]:hover {
+    opacity: 1;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
