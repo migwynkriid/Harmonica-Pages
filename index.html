@@ -14,11 +14,16 @@
     <meta property="og:url" content="https://migwynkriid.github.io/Harmonica-Pages/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+      /* Inline critical CSS here */
+      body { font-family: Arial, sans-serif; }
+      /* Add other critical styles */
+    </style>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"></noscript>
+    <link rel="preload" href="https://github.com/user-attachments/assets/1ee417c8-db7c-458c-987d-95dcd909ee47" as="image">
+    <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 <body>
@@ -62,7 +67,11 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://github.com/user-attachments/assets/1ee417c8-db7c-458c-987d-95dcd909ee47" alt="Harmonica Bot Preview" class="preview-image">
+                <img src="https://github.com/user-attachments/assets/1ee417c8-db7c-458c-987d-95dcd909ee47" 
+                     alt="Harmonica Bot Preview" 
+                     class="preview-image"
+                     width="600" 
+                     height="400">
                 <div class="glow"></div>
             </div>
         </div>
@@ -353,7 +362,7 @@
     </section>
 
     <footer>
-        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmigwynkriid.github.io%2FHarmonica-Pages%2F&count_bg=%23010101&title_bg=%23555555&icon=&icon_color=%23050303&title=visits&edge_flat=false" alt="Visitor counter badge"></a>
+        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmigwynkriid.github.io%2FHarmonica-Pages%2F&count_bg=%23010101&title_bg=%23555555&icon=&icon_color=%23050303&title=visits&edge_flat=false" alt="Visitor counter badge" width="88" height="20"></a>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
